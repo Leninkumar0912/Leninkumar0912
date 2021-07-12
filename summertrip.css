@@ -1,0 +1,244 @@
+li{
+    
+    display: inline-block;
+    margin: 2px;
+    padding: 10px;
+    list-style: none;   
+    padding: 25px;
+    border-radius: 10px;
+}
+li:hover{
+  background-color: blanchedalmond;
+ 
+}
+.hundred h1{
+    margin-left: 40px;
+    width: 50%;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+}
+.para p{
+    position: absolute;
+    top: 220px;
+    left: 140px; ;
+
+}
+.hundred{
+    width: 60%;
+    height: 400px;
+    margin: 50px;
+    z-index: 0;
+    position: relative;
+    float: left;
+}
+a{
+  text-decoration:none;
+}
+.learnmore{
+  border-style: groove;
+  padding: 5px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  position: absolute;
+  top: 315px;
+  left: 130px;
+  background-color:rgba(0, 0, 0,0.6);
+}
+.learnmore:hover{
+  background-color: #ccc;
+}
+
+.bi
+{
+    background-image: url(./fish1.jpg);
+    min-height: 600px;
+    width: 100%;
+    border: aquamarine;
+    border-style: groove;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.form
+{
+    background-color: rgba(0, 0, 0,0.6) ;
+    opacity: 0.9;
+    margin-right: initial;
+    width: 20%;
+    top: 60px;
+    left: 1000px;
+    position: absolute;
+    float: right;
+}
+input[type=text], select {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+.totalgallery{
+  padding: 5px;
+border: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+  div.gallery {
+    
+    margin: 4px;
+    
+    max-width :450px;
+    text-align:center;
+    width: 340px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  div.news{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  a{
+    text-align: center;
+    align-items: center;
+    margin: left 600px;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.latest
+  {
+    text-align: center;
+  }
+
+  .viewallnews{
+    border-style: groove;
+    margin: 20px;
+    width: 130px;
+    padding: 20px;
+    border-color: royalblue;
+    margin:0 44%;
+    cursor: pointer;
+    background-color: rgb(13, 210, 236);
+    
+  }
+  .viewallnews:hover{
+    background-color: rgb(194, 199, 204);
+  }
+  .readmore{
+    border-style: groove;
+    margin: 20px;
+    width: 130px;
+    padding: 20px;
+    position: absolute;
+    left: 750px;
+    text-align: center;
+    background-color: rgb(212, 108, 60);
+  }
+  .readmore:hover{
+    background-color: rgb(194, 199, 204);
+  }
+  
+ .end{
+    background-image: url(./beach.jpg);
+    width: 100%;
+    padding: 100px;
+    height: 100%;
+    text-align: center;
+    
+  }
+  .services{
+    min-height: 600px;
+    width: 100%;
+    border: aquamarine;
+    border-style: groove;
+  
+  }
+  .services h1{
+    position: relative;
+    left: 220px;
+    top: 50px;
+    text-decoration: underline;
+  }
+  /*.services i{
+    background-color: rgb(57, 69, 180);
+    border-radius: 35px;
+    align-items: center;
+    height: 29px;
+    width: 29px;
+  }*/
+  .services h5{
+    color: chocolate;
+  }
+  .servicetext{
+    
+    float: left;
+    position: relative;
+    top: 75px;
+    left: 220px;
+  }
+  .serviceimage{
+    float: left;
+    height: 100px;
+    position: relative;
+    top: -81px;
+    left: 330px;
+  }
+  .firsthalf{
+    float: left;
+    padding: 8px;
+  }
+  .secondhalf{
+    float: left;
+    padding: 8px;
+    
+  }
+  .secondhalf::after{
+    content: '';
+    clear:both;
+    display:table;
+  }
+  .promo{
+    background-color: rgb(30, 44, 163);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+  }
+.getstarted{
+  border-style: groove;
+  background-color: cornflowerblue;
+  width: 125px;
+  padding: 5px;
+  height: 28px;
+  margin:0 44%;
+  cursor: pointer;
+}
+.getstarted:hover{
+  background-color: rgb(112, 136, 180);
+}
+.services h3{
+  text-decoration: underline;
+}
